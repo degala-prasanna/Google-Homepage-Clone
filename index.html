@@ -10,21 +10,25 @@
     <title>Google</title>
 </head>
 <body>
-    <!--Header Starts-->
+     <!-- Header Section -->
     <header>
         <nav class="menu">
             <a href="https://www.google.com/gmail/about/" class="hyperlink"><p>Gmail</p></a>
             <a href="https://www.google.com/imghp?hl=en&ogbl" class="hyperlink">Images</a>
-            <div class="app"><i class="material-symbols-outlined" title="Google apps">apps</i></div>
-            <a href="https://accounts.google.com/"><button class="sign-in">Sign in</button></a>
-            
+            <div class="app">
+                <i class="material-symbols-outlined" title="Google apps">apps</i>
+            </div>
+            <a href="https://accounts.google.com/">
+                <button class="sign-in">Sign in</button>
+            </a>
         </nav>
     </header>
-    <!--Header Ends-->
-    <section>
-        <!--Main Body starts-->
+      <!-- Main Content Section -->
+    <main>
         <div class="container">
+            <!-- Google Image-->
             <img src="images/google.jpg" alt="" class="google-img">
+            <!-- Search Bar-->
             <div class="search">
                 <i class="material-icons search-icon" >search</i>
                 <input type="text" class="search-input">
@@ -33,31 +37,35 @@
                     <img src="images/Google_Lens_Icon.svg.png" alt=""class="lens-icon" title="Search by image">
                 </div>
             </div>
+            <!--Buttons -->
             <div class="button">
                 <button class="search-btn">Google Search</button>
-                <button> I’m Feeling Lucky</button>
+                <button class="feeling-lucky" onclick="feelingLuckybtn()"> I’m Feeling Lucky</button>
             </div>
+            <!-- Explore YouTube Kids Section -->
             <div class="explore-youtube">
                 <img src="images/youtube_5968852.png" alt="" class="youtube">
-                <div><a href="https://www.google.com/url?q=https://www.youtube.com/intl/ALL_in/kids/" class="link"> Explore YouTube Kids:</a>
-                    <span>a world of fun and learning made just for kids</span></div>
+                <div>
+                    <a href="https://www.google.com/url?q=https://www.youtube.com/intl/ALL_in/kids/" class="link"> Explore YouTube Kids:</a>
+                    <span>a world of fun and learning made just for kids</span>
+                </div>
             </div>
-            <div class="line2">
-                <p>Google offered in:</p> <a href="https://www.google.com/setprefs?sig=0_Grul4xu87vLNdWjFdJdV_vBiDBw%3D&hl=hi&source=homepage&sa=X&ved=0ahUKEwjQoKKbic2BAxXIbvUHHe3XAVkQ2ZgBCBU" class="link"> हिन्दी</a>
-                                        <a href="https://www.google.com/setprefs?sig=0_Grul4xu87vLNdWjFdJdV_vBiDBw%3D&hl=bn&source=homepage&sa=X&ved=0ahUKEwj9usO_ic2BAxVas5UCHaiGB7YQ2ZgBCBY" class="link">বাংলা </a>  
-                                        <a href="https://www.google.com/setprefs?sig=0_Grul4xu87vLNdWjFdJdV_vBiDBw%3D&hl=te&source=homepage&sa=X&ved=0ahUKEwjQoKKbic2BAxXIbvUHHe3XAVkQ2ZgBCBc" class="link"> తెలుగు</a>     
-                                                <a href="https://www.google.com/setprefs?sig=0_Grul4xu87vLNdWjFdJdV_vBiDBw%3D&hl=mr&source=homepage&sa=X&ved=0ahUKEwjQoKKbic2BAxXIbvUHHe3XAVkQ2ZgBCBg" class="link">मराठी</a>  
-                                                <a href="https://www.google.com/setprefs?sig=0_Grul4xu87vLNdWjFdJdV_vBiDBw%3D&hl=ta&source=homepage&sa=X&ved=0ahUKEwjQoKKbic2BAxXIbvUHHe3XAVkQ2ZgBCBk" class="link">தமிழ்</a>     
-                                                <a href="https://www.google.com/setprefs?sig=0_Grul4xu87vLNdWjFdJdV_vBiDBw%3D&hl=gu&source=homepage&sa=X&ved=0ahUKEwjQoKKbic2BAxXIbvUHHe3XAVkQ2ZgBCBo" class="link">ગુજરાતી</a>   
-                                                <a href="https://www.google.com/setprefs?sig=0_Grul4xu87vLNdWjFdJdV_vBiDBw%3D&hl=kn&source=homepage&sa=X&ved=0ahUKEwjQoKKbic2BAxXIbvUHHe3XAVkQ2ZgBCBs" class="link">ಕನ್ನಡ</a>    
-                                                <a href="https://www.google.com/setprefs?sig=0_Grul4xu87vLNdWjFdJdV_vBiDBw%3D&hl=ml&source=homepage&sa=X&ved=0ahUKEwjQoKKbic2BAxXIbvUHHe3XAVkQ2ZgBCBw"class="link">മലയാളം</a>       
-                                                <a href="https://www.google.com/setprefs?sig=0_Grul4xu87vLNdWjFdJdV_vBiDBw%3D&hl=pa&source=homepage&sa=X&ved=0ahUKEwjQoKKbic2BAxXIbvUHHe3XAVkQ2ZgBCB0" class="link" >ਪੰਜਾਬੀ</a> 
-                                            
-                </p>
+            <!-- Language Preferences -->
+            <div class="Google-offered">
+                <p>Google offered in:</p> 
+                <a href="https://www.google.com/setprefs?sig=0_Grul4xu87vLNdWjFdJdV_vBiDBw%3D&hl=hi&source=homepage&sa=X&ved=0ahUKEwjQoKKbic2BAxXIbvUHHe3XAVkQ2ZgBCBU" class="link"> हिन्दी</a>
+                <a href="https://www.google.com/setprefs?sig=0_Grul4xu87vLNdWjFdJdV_vBiDBw%3D&hl=bn&source=homepage&sa=X&ved=0ahUKEwj9usO_ic2BAxVas5UCHaiGB7YQ2ZgBCBY" class="link">বাংলা </a>  
+                <a href="https://www.google.com/setprefs?sig=0_Grul4xu87vLNdWjFdJdV_vBiDBw%3D&hl=te&source=homepage&sa=X&ved=0ahUKEwjQoKKbic2BAxXIbvUHHe3XAVkQ2ZgBCBc" class="link"> తెలుగు</a>     
+                <a href="https://www.google.com/setprefs?sig=0_Grul4xu87vLNdWjFdJdV_vBiDBw%3D&hl=mr&source=homepage&sa=X&ved=0ahUKEwjQoKKbic2BAxXIbvUHHe3XAVkQ2ZgBCBg" class="link">मराठी</a>  
+                <a href="https://www.google.com/setprefs?sig=0_Grul4xu87vLNdWjFdJdV_vBiDBw%3D&hl=ta&source=homepage&sa=X&ved=0ahUKEwjQoKKbic2BAxXIbvUHHe3XAVkQ2ZgBCBk" class="link">தமிழ்</a>     
+                <a href="https://www.google.com/setprefs?sig=0_Grul4xu87vLNdWjFdJdV_vBiDBw%3D&hl=gu&source=homepage&sa=X&ved=0ahUKEwjQoKKbic2BAxXIbvUHHe3XAVkQ2ZgBCBo" class="link">ગુજરાતી</a>   
+                <a href="https://www.google.com/setprefs?sig=0_Grul4xu87vLNdWjFdJdV_vBiDBw%3D&hl=kn&source=homepage&sa=X&ved=0ahUKEwjQoKKbic2BAxXIbvUHHe3XAVkQ2ZgBCBs" class="link">ಕನ್ನಡ</a>    
+                <a href="https://www.google.com/setprefs?sig=0_Grul4xu87vLNdWjFdJdV_vBiDBw%3D&hl=ml&source=homepage&sa=X&ved=0ahUKEwjQoKKbic2BAxXIbvUHHe3XAVkQ2ZgBCBw"class="link">മലയാളം</a>       
+                <a href="https://www.google.com/setprefs?sig=0_Grul4xu87vLNdWjFdJdV_vBiDBw%3D&hl=pa&source=homepage&sa=X&ved=0ahUKEwjQoKKbic2BAxXIbvUHHe3XAVkQ2ZgBCB0" class="link" >ਪੰਜਾਬੀ</a> 
             </div>
         </div>
-    </section>
-    <!--Footer-->
+    </main>
+    <!-- Footer Section -->
     <footer>
         <div class="footer">
             <div class="footer1">
@@ -78,6 +86,7 @@
             </div>
         </div>
     </footer>
+    <!-- JavaScript -->
     <script src="script.js"></script>
 </body>
 </html>
